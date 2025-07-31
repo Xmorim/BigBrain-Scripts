@@ -14,7 +14,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [string[]]$DominiosParaRemover = @("[COLOQUE O DOMINIO AQUI]", "[COLOQUE O DOMINIO AQUI]"),
+    [string[]]$DominiosParaRemover = @("Dominio1", "Dominio2"),
     
     [Parameter(Mandatory=$false)]
     [string]$ExportPath = "./M365_Domain_Audit_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
